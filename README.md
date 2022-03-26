@@ -12,7 +12,10 @@ This repository contains **code for our paper published in CVPR 2022**:
 
 [Article link](https://arxiv.org/abs/2203.02533) _(Published on arxiv: Mar 4, 2022 )_
 
-In this paper, we propose a novel semi-supervised learning (SSL) framework named BoostMIS that combines adaptive pseudo labeling and informative active annotation to unleash the potential of medical image SSL models.
+# Abstract
+In this paper, we propose a novel semi-supervised learning (SSL) framework named BoostMIS that combines adaptive pseudo labeling and informative active annotation to unleash the potential of medical image SSL models:
+(1) BoostMIS can adaptively leverage the cluster assumption and consistency regularization of the unlabeled data according to the current learning status.  This strategy can adaptively generate one-hot "hard" labels converted from task model predictions for better task model training. (2) For the unselected unlabeled images with low confidence,  we introduce an Active learning (AL) algorithm to find the informative samples as the annotation candidates by exploiting virtual adversarial perturbation and model's density-aware entropy.
+These informative candidates are subsequently fed into the next training cycle for better SSL label propagation.  Notably, the adaptive pseudo-labeling and informative active annotation form a learning closed-loop that are mutually collaborative to boost medical image SSL.  To verify the effectiveness of the proposed method, we collected a metastatic epidural spinal cord compression (MESCC) dataset that aims to optimize MESCC diagnosis and classification for improved specialist referral and treatment. We conducted an extensive experimental study of BoostMIS on MESCC  dataset. The experimental results verify our framework's effectiveness  with a significant improvement over various state-of-the-art methods.
 
 ## 🎓 What’s In This Repo
 
