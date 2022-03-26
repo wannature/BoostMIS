@@ -29,7 +29,25 @@ The proposed dataset and framework implementations of our paper are as follows:
 [**Dataset link**](https://arxiv.org/abs/2203.02533)
 
 ## Dataset Statistic
-Based on Tensorflow object detection API, we pick Faster R-CNN with Resnet101 architecture pre-trained on COCO dataset to detect region of interest (ROI).
+
+## Results
+Two-grading statistics of the MESCC dataset.
+|  | Low-grade | High-grade |Total|
+| ----- | ------ | ------ | 
+| Train | 4,644 | 563 |5,207 |
+| Val | 917 |94 |1,011|
+| Test | 982 |95 |1,077 |
+| Total | 6,543| 752| 7,295 |
+
+Six-grading statistics of the MESCC dataset.
+|  | Low-grade | High-grade |Total|
+| ----- | ------ | ------ | 
+| Train | 4,644 | 563 |5,207 |
+| Val | 917 |94 |1,011|
+| Test | 982 |95 |1,077 |
+| Total | 6,543| 752| 7,295 |
+
+
 
 
 ## Run the code
