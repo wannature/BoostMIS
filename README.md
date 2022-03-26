@@ -16,26 +16,25 @@ In this paper, we propose a novel semi-supervised learning (SSL) framework named
 
 ## 🎓 What’s In This Repo
 
-
-
 The proposed dataset and framework implementations of our paper are as follows:
 
 ## Environment
 
-- Python==3.9
+- Python==3.7
 - Pytorch==1.9.1
-- Keras==2.2.2
+- cuda=10.2
 
-## Dataset Statistic
-[**Dataset link**](https://arxiv.org/abs/2203.02533)
 
 ## Dataset 
-Based on Tensorflow object detection API, we pick Faster R-CNN with Resnet101 architecture pre-trained on COCO dataset to detect region of interest (ROI).
+[**Dataset link**](https://arxiv.org/abs/2203.02533)
 
+## Dataset Statistic
+Based on Tensorflow object detection API, we pick Faster R-CNN with Resnet101 architecture pre-trained on COCO dataset to detect region of interest (ROI).
 
 
 ## Run the code
 bash train.sh
+
 ## 🤝 Referencing and Citing 
 
 If you find our work useful in your research and would like to cite our Radiology paper, please use the following citation:
