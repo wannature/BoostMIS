@@ -30,7 +30,6 @@ The proposed dataset and framework implementations of our paper are as follows:
 
 ## Dataset Statistic
 
-## Results
 Two-grading statistics of the MESCC dataset.
 |  -----| Low-grade | High-grade |Total|
 | ----- | ------ | ------ | ------ |
@@ -41,7 +40,12 @@ Two-grading statistics of the MESCC dataset.
 
 Six-grading statistics of the MESCC dataset.
 
-
+|  -----| b0 | b1a | b1b| b1c| b2| b3| Total|
+| ----- | ------ | ------ | ------ |------ |------ |------ |------ |
+| Train | 3,752 |409 |483 |224 |136 |203 |5,207|
+| Val | 756 |73 |88 |50 |23 |21 |1,011|
+| Test | 849 |82 |51 |39 |30| 26| 1,077|
+| Total | 5,357 |564 |622 |313|189 |250 |7,295|
 
 
 
