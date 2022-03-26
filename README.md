@@ -7,7 +7,9 @@ This repository contains **code for our paper published in CVPR 2022**:
 
 > **"BoostMIS: Boosting Medical Image Semi-supervised Learning with Adaptive Pseudo Labeling and Informative Active Annotation"**
 
-![Rad-img](https://pubs.rsna.org/cms/10.1148/radiol.2021204289/asset/images/medium/radiol.2021204289.va.gif)
+
+
+![Rad-img](<img src="imgs/framework.pdf" alt="SpineAI-logo" height="150">)
 
 [Article link](https://arxiv.org/abs/2203.02533) _(Published on arxiv: Mar 4, 2022 )_
 
