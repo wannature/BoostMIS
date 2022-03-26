@@ -26,40 +26,5 @@ def consistency_loss(logits_s, logits_w, class_acc, p_target, p_model, name='ce'
         assert logits_w.size() == logits_s.size()
         return F.mse_loss(logits_s, logits_w, reduction='mean')
 
-    elif name == 'L2_mask':
-        pass
-
-    elif name == 'ce':
-        pseudo_label = torch.softmax(logits_w, dim=-1)
-        if use_DA:
-            if p_model == None:
-                p_model = torch.mean(pseudo_label.detach(), dim=0)
-            else:
-                p_model = p_model * 0.999 + torch.mean(pseudo_label.detach(), dim=0) * 0.001
-            pseudo_label = pseudo_label * p_target / p_model
-            pseudo_label = (pseudo_label / pseudo_label.sum(dim=-1, keepdim=True))
-
-        max_probs, max_idx = torch.max(pseudo_label, dim=-1)
-
-        # mask = max_probs.ge(p_cutoff * (class_acc[max_idx] + 1.) / 2).float()  
-        # mask = max_probs.ge(p_cutoff * (1 / (2. - class_acc[max_idx]))).float()  # low_limit
-         
-        # mask = max_probs.ge(p_cutoff * (torch.log(class_acc[max_idx] + 1.) + 0.5)/(math.log(2) + 0.5)).float()  # concave
-        select = max_probs.ge(p_cutoff).long()
-        global count_temp
-        
-        count_t=torch.count_nonzero(select)
-        count_p=count_temp
-        count_t=len(pseudo_label)
-        count_temp=count_t
-        cutoff=a*min(1,count_t/count_p)+b*N_a/K
-        mask = max_probs.ge(cutoff).float()
-        if use_hard_labels:
-            masked_loss = ce_loss(logits_s, max_idx, use_hard_labels, reduction='none') * mask
-        else:
-            pseudo_label = torch.softmax(logits_w / T, dim=-1)
-            masked_loss = ce_loss(logits_s, pseudo_label, use_hard_labels) * mask
-        return masked_loss.mean(), mask.mean(), select, max_idx.long(), p_model
-
     else:
         assert Exception('Not Implemented consistency_loss')
