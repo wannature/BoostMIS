@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../ssl-al"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../spine-mets"
+		}
+	],
+	"settings": {}
+}
