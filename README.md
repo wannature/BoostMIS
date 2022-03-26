@@ -1,5 +1,18 @@
 # BoostMIS
 
+
+## 📄 About
+
+This repository contains **code for our paper published in CVPR 2022**:
+
+> **"BoostMIS: Boosting Medical Image Semi-supervised Learning with Adaptive Pseudo Labeling and Informative Active Annotation"**
+
+![Rad-img](https://pubs.rsna.org/cms/10.1148/radiol.2021204289/asset/images/medium/radiol.2021204289.va.gif)
+
+[Article link](https://arxiv.org/abs/2203.02533) _(Published on arxiv: Mar 4, 2022 )_
+
+In this paper, we propose a novel semi-supervised learning (SSL) framework named BoostMIS that combines adaptive pseudo labeling and informative active annotation to unleash the potential of medical image SSL models.
+
 ## 🤝 Referencing and Citing 
 
 If you find our work useful in your research and would like to cite our Radiology paper, please use the following citation:
