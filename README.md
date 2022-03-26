@@ -1,6 +1,6 @@
 # BoostMIS
 
-## 🤝 Referencing and Citing SpineAI
+## 🤝 Referencing and Citing 
 
 If you find our work useful in your research and would like to cite our Radiology paper, please use the following citation:
 
