@@ -40,22 +40,22 @@ The *-targets.npy files are the labels for two-grading and six-grading. For two-
 
 ## Dataset Statistic
 
-                                                Two-grading statistics of the MESCC dataset.
-                                                |  -----| Low-grade | High-grade |Total|
-                                                | ----- | ------ | ------ | ------ |
-                                                | Train | 4,644 | 563 |5,207 |
-                                                | Val | 917 |94 |1,011|
-                                                | Test | 982 |95 |1,077 |
-                                                | Total | 6,543| 752| 7,295 |
+Two-grading statistics of the MESCC dataset.
+|  -----| Low-grade | High-grade |Total|
+| ----- | ------ | ------ | ------ |
+| Train | 4,644 | 563 |5,207 |
+| Val | 917 |94 |1,011|
+| Test | 982 |95 |1,077 |
+| Total | 6,543| 752| 7,295 |
 
 Six-grading statistics of the MESCC dataset.
 
-                                                |  -----| b0 | b1a | b1b| b1c| b2| b3| Total|
-                                                | ----- | ------ | ------ | ------ |------ |------ |------ |------ |
-                                                | Train | 3,752 |409 |483 |224 |136 |203 |5,207|
-                                                | Val | 756 |73 |88 |50 |23 |21 |1,011|
-                                                | Test | 849 |82 |51 |39 |30| 26| 1,077|
-                                                | Total | 5,357 |564 |622 |313|189 |250 |7,295|
+|  -----| b0 | b1a | b1b| b1c| b2| b3| Total|
+| ----- | ------ | ------ | ------ |------ |------ |------ |------ |
+| Train | 3,752 |409 |483 |224 |136 |203 |5,207|
+| Val | 756 |73 |88 |50 |23 |21 |1,011|
+| Test | 849 |82 |51 |39 |30| 26| 1,077|
+| Total | 5,357 |564 |622 |313|189 |250 |7,295|
 
 
 
