@@ -27,9 +27,9 @@ The proposed dataset and framework implementations of our paper are as follows:
 
 
 ## Dataset 
-The MESCC dataset contains two classification task: two-grading and six-grading. 
+The MESCC dataset contains two classification task: two-grading (low-grade and high-grade) and six-grading (b0, b1a, b1b, b1c, b2, b3). Six samples as follows:
 
-<div align=center><img height="480" src="imgs/MESCC Samples.png"></div>
+<div align=center><img height="420" src="imgs/MESCC Samples.png"></div>
 
 
 The *-features.npy files are the MRI image features extracted from the pre-trained Resnet50 (from https://download.pytorch.org/models/resnet50-19c8e357.pth).  
