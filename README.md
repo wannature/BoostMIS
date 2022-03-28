@@ -32,11 +32,11 @@ The MESCC dataset contains two classification task: two-grading (low-grade and h
 <div align=center><img height="420" src="imgs/MESCC Samples.png"></div>
 
 
-The *-features.npy files are the MRI image features extracted from the pre-trained Resnet50 (from https://download.pytorch.org/models/resnet50-19c8e357.pth).  
+This is the [**Dataset link**](https://www.dropbox.com/s/56xjee1symuu2vv/MESCC%20dataset.zip?dl=0). The *-features.npy files are the MRI image features extracted from the pre-trained Resnet50 (from https://download.pytorch.org/models/resnet50-19c8e357.pth).  
 
 The *-targets.npy files are the labels for two-grading and six-grading. For two-grading, 0 and 1 are the low-grade and high-grade, respectively. For six grading, 0, 1, 2, 3, 4, 5 and 6 correspond to b0, b1a, b1b, b1c, b2 and b3, respectively.
 
-[**Dataset link**](https://www.dropbox.com/s/56xjee1symuu2vv/MESCC%20dataset.zip?dl=0)
+
 
 ## Dataset Statistic
 
