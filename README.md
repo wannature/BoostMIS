@@ -1,6 +1,6 @@
 ![version](https://img.shields.io/badge/version-v1.0-green)
-![python](https://img.shields.io/badge/python-3.8.3-blue)
-![pytorch](https://img.shields.io/badge/pytorch-1.6.0-brightgreen)
+![python](https://img.shields.io/badge/python-3.7.3-blue)
+![pytorch](https://img.shields.io/badge/pytorch-1.9.1-brightgreen)
 
 ## 📄 About
 
