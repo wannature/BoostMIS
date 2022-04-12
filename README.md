@@ -6,7 +6,7 @@
 
 This repository contains **code for our paper published in CVPR 2022**:
 
-> **"BoostMIS: Boosting Medical Image Semi-supervised Learning with Adaptive Pseudo Labeling and Informative Active Annotation (https://dl.acm.org/doi/10.1145/3448016.3457321)"**
+> **"BoostMIS: Boosting Medical Image Semi-supervised Learning with Adaptive Pseudo Labeling and Informative Active Annotation "**
 .
 
 # Abstract
